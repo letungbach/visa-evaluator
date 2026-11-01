@@ -1,11 +1,12 @@
 {
   "name": "visa-evaluator-backend",
   "version": "1.0.0",
-  "description": "A tool that evalutes the visas.",
+  "description": "An AI-powered visa evaluation service.",
   "keywords": [
     "nodejs",
     "express",
-    "ai"
+    "ai",
+    "visa"
   ],
   "homepage": "https://github.com/rahulparihar-30/visa-evaluator#readme",
   "bugs": {
@@ -20,6 +21,8 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
